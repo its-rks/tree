@@ -471,6 +471,10 @@ PRODUCT_PACKAGES += \
     fstab.qcom \
     ueventd.qcom.rc
 
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePkgs
+
 # RCS
 PRODUCT_PACKAGES += \
     PresencePolling \
