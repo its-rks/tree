@@ -34,6 +34,7 @@ persist.vendor.data.profile_update=true
 debug.cpurend.vsync=false
 
 # Graphics
+debug.hwui.renderer=skiagl
 persist.demo.hdmirotationlock=false
 persist.hwc.enable_vds=1
 ro.gfx.driver.1=com.qualcomm.qti.gpudrivers.sm6150.api30
