@@ -74,6 +74,11 @@ ro.media.recorder-max-base-layer-fps=60
 # Netflix
 ro.netflix.bsp_rev=Q6150-17263-1
 
+# SkiaGL Threaded
+debug.renderengine.backend=skiaglthreaded
+debug.hwui.renderer=skiagl
+renderthread.skia.reduceopstasksplitting=true
+
 # Perfetto
 persist.device_config.runtime_native_boot.iorap_readahead_enable=true
 
