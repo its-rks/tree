@@ -442,6 +442,10 @@ PRODUCT_COPY_FILES += \
 # Audio
 TARGET_ENABLE_AUDIO_ULL := true
 
+# Dexpreopt
+PRODUCT_DEXPREOPT_SPEED_APPS += \
+    SystemUI
+
 # Public Libraries
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt
