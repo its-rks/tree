@@ -76,6 +76,9 @@ persist.vendor.ims.disableADBLogs=1
 persist.vendor.ims.disableIMSLogs=1
 persist.vendor.radio.enable_temp_dds=true
 persist.vendor.radio.force_on_dc=true
+persist.vendor.radio.report_codec=1
+persist.vendor.radio.vdp_on_ims_cap=1
+persist.vendor.qti.telephony.vt_cam_interface=2
 ril.subscription.types=RUIM
 persist.sys.fflag.override.settings_provider_model=false
 
