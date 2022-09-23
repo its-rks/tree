@@ -192,6 +192,8 @@ vendor.display.enable_optimize_refresh=1
 vendor.gralloc.disable_ubwc=0
 persist.sys.sf.color_mode=0
 persist.sys.sf.native_mode=0
+debug.hwui.use_hint_manager=true
+debug.hwui.target_cpu_time_percent=30
 
 # Keystore
 ro.hardware.keystore_desede=true
