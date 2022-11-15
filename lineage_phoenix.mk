@@ -19,6 +19,9 @@ PRODUCT_MANUFACTURER := Xiaomi
 # Device Stuffs
 TARGET_BOOT_ANIMATION_RES := 1080
 
+#GApps
+WITH_GMS := true
+
 # Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="raven-user 13 TP1A.221005.002/9012097 release-keys"
